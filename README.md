@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# A simple weather app
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple weather app that allows users to search for a specific location and retrieve weather information.
 
-## Get started
+## Features of app
 
-1. Install dependencies
+The app has following features: 
+1) 𝐄𝐱𝐩𝐨 𝐋𝐨𝐜𝐚𝐭𝐢𝐨𝐧 to get the user's current latitude and longitude.
+2) 𝐌𝐚𝐩𝐛𝐨𝐱 𝐀𝐏𝐈 for reverse geocoding, converting coordinates into a user-readable address.
+3) 𝐎𝐩𝐞𝐧 𝐖𝐞𝐚𝐭𝐡𝐞𝐫 𝐀𝐏𝐈 for search auto-completion and fetching both current and forecast weather data for a user selected location.
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+## Preview
 
-   ```bash
-    npx expo start
-   ```
+https://github.com/user-attachments/assets/4d0b5885-d870-4859-949b-9424d32cee48
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+## Installation guide 
+### Clone the repo 
 ```bash
-npm run reset-project
+git clone https://github.com/iAmHammad261/BlogApp
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Install required libraries:
+```bash
+npx expo install
+```
+### Build the project to run it:
+```bash
+npx expo run:android
+```
